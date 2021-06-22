@@ -4,9 +4,11 @@
 
 /*outline: 2px solid black;*/
 html {
+    
     max-width: 1200px;
     margin: 12px;
     overflow: visible;
+    color: black;
 }
             body {
                 margin-top: 0;
@@ -36,6 +38,7 @@ html {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    font-family: 'Dancing Script', cursive;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -67,10 +70,16 @@ html {
     .sidenav a {font-size: 18px;}
   }
 
-  .hold-my-beer {
+  .hold-my-beer { /* adjusts icon for sideNav */
     left: 1100px;
       color: #FFFB05;
       position: fixed;
       font-size: 2rem;
       padding-top: 15px; /* Place content 60px from the top */
   }
+
+
+                    .title-container {
+                        display: block;
+                    }
+
